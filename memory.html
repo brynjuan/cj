@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="id">
+    <!-- Suara untuk jawaban benar, salah, dan waktu habis -->
+<audio id="correct-sound" src="audio\sound4.mp3" preload="auto"></audio>
+<audio id="wrong-sound" src="audio\sound3.mp3" preload="auto"></audio>
+<audio id="time-up-sound" src="audio\sound2.mp3" preload="auto"></audio>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenangan Kita</title>
+    <link rel="stylesheet" href="memory.css">
+    <script src="memory.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Halaman Utama -->
+    <header>
+        <div class="hero">
+            <h1>Hu Ha Hu Ha</h1>
+            <p>Pretty.jh</p>
+        </div>
+    </header>
+
+    <!-- Halaman Cerita Perjalanan -->
+    <section id="cerita">
+        <div class="container">
+            <h2>Lets see our story</h2>
+            <p>03-02-2023</p>
+        </div>
+    </section>
+
+    <!-- Galeri Foto -->
+    <section id="galeri">
+        <div class="container">
+            <h2>foto coy</h2>
+            <div class="foto-grid">
+                <img src="foto1.jpg" alt="Foto Kenangan 1">
+                <img src="foto2.jpg" alt="Foto Kenangan 2">
+                <img src="foto3.jpg" alt="Foto Kenangan 3">
+                <img src="foto4.jpg" alt="Foto Kenangan 4">
+                <img src="foto5.jpg" alt="Foto Kenangan 5">
+                <img src="foto6.jpg" alt="Foto Kenangan 6">
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Kenangan -->
+    <!-- Video Kenangan -->
+<section id="video">
+    <div class="container">
+        <h2>video cuy</h2>
+        <div class="video-grid">
+            <div class="video-item">
+                <video controls>
+                    <source src="video_kenangan1.mp4" type="video/mp4">
+                    Browsermu tidak mendukung tag video.
+                </video>
+            </div>
+            <div class="video-item">
+                <video controls>
+                    <source src="video_kenangan2.mp4" type="video/mp4">
+                    Browsermu tidak mendukung tag video.
+                </video>
+            </div>
+            <div class="video-item">
+                <video controls>
+                    <source src="video_kenangan3.mp4" type="video/mp4">
+                    Browsermu tidak mendukung tag video.
+                </video>
+            </div>
+            <div class="video-item">
+                <video controls>
+                    <source src="video_kenangan4.mp4" type="video/mp4">
+                    Browsermu tidak mendukung tag video.
+                </video>
+            </div>
+            <div class="video-item">
+                <video controls>
+                    <source src="video_kenangan5.mp4" type="video/mp4">
+                    Browsermu tidak mendukung tag video.
+                </video>
+            </div>
+            <div class="video-item">
+                <video controls>
+                    <source src="video_kenangan6.mp4" type="video/mp4">
+                    Browsermu tidak mendukung tag video.
+                </video>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Pesan untuk Masa Depan -->
+    <section id="pesan">
+        <div class="container">
+            <h2>ada kata" indah nich</h2>
+            <p>"Semoga setiap hari yang kita jalani bersama selalu dipenuhi cinta dan kebahagiaan. Kenangan ini akan terus hidup selamanya."</p>
+        </div>
+    </section>
+
+  <!-- Playlist Kenangan -->
+<section id="playlist">
+    <div class="container">
+        <h2>Playlist</h2>
+        <ul>
+            <li>
+                <audio controls>
+                    <source src="audio/lagu1.mp3" type="audio/mp3"> <!-- Ganti dengan path file lokal -->
+                    Browser kamu tidak mendukung pemutar audio.
+                </audio>
+            </li>
+            <li>
+                <audio controls>
+                    <source src="audio/lagu2.mp3" type="audio/mp3"> <!-- Ganti dengan path file lokal -->
+                    Browser kamu tidak mendukung pemutar audio.
+                </audio>
+            </li>
+            <li>
+                <audio controls>
+                    <source src="audio/lagu3.mp3" type="audio/mp3"> <!-- Ganti dengan path file lokal -->
+                    Browser kamu tidak mendukung pemutar audio.
+                </audio>
+            </li>
+            <li>
+                <audio controls>
+                    <source src="audio/lagu4.mp3" type="audio/mp3"> <!-- Ganti dengan path file lokal -->
+                    Browser kamu tidak mendukung pemutar audio.
+                </audio>
+            </li>
+        </ul>
+    </div>
+</section>
+
+
+
+    <!-- Mini Game Section -->
+<section id="game">
+    <div class="container">
+        <h2>Mini Game: Tebak Kata Kenangan</h2>
+        <p>Coba tebak kata yang berkaitan dengan kenangan kita!</p>
+
+        <div id="game-container">
+            <div id="description"></div>
+            <input type="text" id="answer" placeholder="Masukkan jawabanmu..." />
+            <button onclick="checkAnswer()">Tebak</button>
+            <p id="result"></p>
+            <div id="score-board">
+                <p>Skor: <span id="score">0</span></p>
+                <p>Waktu: <span id="timer">20</span> detik</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+    <footer>
+        <p>&copy; bryn.cj</p>
+    </footer>
+</body>
+</html>
